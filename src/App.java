@@ -6,6 +6,7 @@ public class App {
         PriceCalculator price = new PriceCalculator();
         DiscountCalculator priceAndDiscount = new DiscountCalculator();
         InvertValues values = new InvertValues();
+        SellsCalculator sells = new SellsCalculator();
 
         average.getGrades();
         average.calculate();
@@ -24,5 +25,8 @@ public class App {
 
         values.getValues();
         values.invert();
+
+        sells.getAmounts();
+        sells.calculate();
     }
 }
