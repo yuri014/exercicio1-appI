@@ -7,6 +7,10 @@ public class App {
         DiscountCalculator priceAndDiscount = new DiscountCalculator();
         InvertValues values = new InvertValues();
         SellsCalculator sells = new SellsCalculator();
+        ConsortiumCalculator installments = new ConsortiumCalculator();
+
+        installments.getInstallments();
+        installments.calculate();
 
         average.getGrades();
         average.calculate();
