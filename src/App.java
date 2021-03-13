@@ -9,9 +9,6 @@ public class App {
         SellsCalculator sells = new SellsCalculator();
         ConsortiumCalculator installments = new ConsortiumCalculator();
 
-        installments.getInstallments();
-        installments.calculate();
-
         average.getGrades();
         average.calculate();
 
@@ -32,5 +29,8 @@ public class App {
 
         sells.getAmounts();
         sells.calculate();
+
+        installments.getInstallments();
+        installments.calculate();
     }
 }
